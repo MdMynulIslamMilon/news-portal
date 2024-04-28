@@ -9,7 +9,7 @@ const Leftside = () => {
       .then((data) => setCategoris(data));
   }, []);
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <h1>All Categories</h1>
       {categoris.map((category) => (
         <Link className="block p-1" key={category.id}>
@@ -17,7 +17,7 @@ const Leftside = () => {
         </Link>
       ))}
 
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-72 bg-base-100 shadow-xl">
         <figure>
           <img
             src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"

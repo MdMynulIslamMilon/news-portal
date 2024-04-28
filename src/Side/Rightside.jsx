@@ -4,8 +4,7 @@ import qZone2 from '../../src/assets/qZone2.png'
 import qZone3 from '../../src/assets/qZone3.png'
 const Rightside = () => {
     return (
-        <div className="">
-            
+        <div className="flex flex-col items-center">  
             <div>     
                  <h1 className="font-bold">LogIn With</h1>
                 <div className="flex gap-4  items-center border p-4 mb-4 rounded-r-2xl">
